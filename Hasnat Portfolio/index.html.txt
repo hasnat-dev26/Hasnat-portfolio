@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Hasnat | Portfolio</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;scroll-behavior:smooth;}
+    body{background:linear-gradient(135deg,#0f172a,#1e293b);color:white;}
+    nav{display:flex;justify-content:space-between;align-items:center;padding:20px 60px;background:rgba(255,255,255,0.05);position:sticky;top:0;backdrop-filter:blur(10px);}
+    nav h2{color:#38bdf8;}
+    nav ul{display:flex;list-style:none;gap:20px;}
+    nav ul li a{text-decoration:none;color:white;font-weight:bold;}
+    nav ul li a:hover{color:#38bdf8;}
+
+    .hero{display:flex;align-items:center;justify-content:center;gap:40px;padding:80px 40px;min-height:100vh;}
+    .hero img{width:250px;height:250px;border-radius:50%;object-fit:cover;border:5px solid #38bdf8;box-shadow:0 0 30px rgba(56,189,248,0.5);}
+    .hero-text h1{font-size:3rem;}
+    .hero-text span{color:#38bdf8;}
+    .hero-text p{margin-top:15px;font-size:1.2rem;color:#cbd5e1;}
+
+    section{padding:80px 60px;}
+    h2{margin-bottom:20px;color:#38bdf8;}
+
+    .skills,.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;}
+    .card{background:rgba(255,255,255,0.08);padding:20px;border-radius:15px;transition:0.3s;}
+    .card:hover{transform:translateY(-8px);}
+
+    .contact a{color:#38bdf8;text-decoration:none;}
+
+    footer{text-align:center;padding:20px;background:rgba(255,255,255,0.05);margin-top:40px;}
+  </style>
+</head>
+<body>
+
+  <nav>
+    <h2>Hasnat Portfolio</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <img src="images/profile.jpg" alt="Muhammad Hasnat">
+    <div class="hero-text">
+      <h1>Hi, I'm <span>Muhammad Hasnat</span></h1>
+      <p>Computer Science Student | Aspiring Software Engineer | Passionate about Web Development & Programming</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a Computer Science student focused on building practical projects and improving my programming skills.
+      My goal is to become a professional Software Engineer and create impactful solutions.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">Python</div>
+      <div class="card">C++</div>
+      <div class="card">Git & GitHub</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Student Management System</h3>
+        <p>A complete system to manage student records efficiently.</p>
+      </div>
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A professional portfolio showcasing my skills and projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:m.hasnatamanullah@gmail.com">m.hasnatamanullah@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/hasnat-dev26" target="_blank">Visit My GitHub</a></p>
+    <p>LinkedIn: <a href="www.linkedin.com/in/muhammad-hasnat-7a34bb405" target="_blank">Visit My LinkedIn</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Muhammad Hasnat | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
